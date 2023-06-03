@@ -101,7 +101,7 @@ cokbrut=[]
 
 def back():
 	login()
-Tutul="Tutul"
+Nihan=nihan""
 imt="SETU"
 ak="CLASS3-"
 
@@ -194,18 +194,18 @@ __    __  ______  __    __   ______   __    __
 \033[0;94m╚━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━╝\033[1;31m""")
 def login():
 	banner()
-	NIHAN j('\033[1;96m[1] File Cloning\n\x1b[1;92m[2] Contact With Admin\n\033[0;97m[0] \033[0;91mEXIT ')
-	NIHAN j('\033[0;97m===============================================')
-	NIHAN= input('\x1b[1;92m[+] CHOOSE: ');time.sleep(0.01)
-	if NIHAN in ['m']:
+	NIHANj('\033[1;96m[1] File Cloning\n\x1b[1;92m[2] Contact With Admin\n\033[0;97m[0] \033[0;91mEXIT ')
+	NIHANj('\033[0;97m===============================================')
+    NIHANj= input('\x1b[1;92m[+] CHOOSE: ');time.sleep(0.01)
+	if NIHANin ['m']:
 		public()
-	elif NIHAN in ['1']:
+	elif NIHANin ['1']:
 		crack_file()
-	elif NIHAN in ['i','0i']:
+	elif NIHANin ['i','0i']:
 		result()
-	elif NIHAN in ['2','02']:
+	elif NIHANin ['2','02']:
 		os.system('xdg-open https://wa.me/+8801981002555')
-	elif NIHAN in ['0']:
+	elif NIHANin ['0']:
 		os.system('rm -rf .token.txt')
 		os.system('rm -rf .cookie.txt')
 		print('#DONE LOGOUT ')
